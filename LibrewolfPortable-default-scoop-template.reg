@@ -1,6 +1,10 @@
 Windows Registry Editor Version 5.00
 
 
+[HKEY_CURRENT_USER\SOFTWARE\Classes\LibrewolfHTM]
+@="LibrewolfPortable Handler"
+"AppUserModelId"="LibrewolfPortable"
+
 [HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
 "LibrewolfPortable"="Software\\Clients\\StartMenuInternet\\LibrewolfPortable\\Capabilities"
 

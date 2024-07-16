@@ -1,39 +1,43 @@
-﻿Windows Registry Editor Version 5.00
+Windows Registry Editor Version 5.00
 
 
 [HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
-"Firefox (Scoop)"="Software\\Clients\\StartMenuInternet\\Firefox (Scoop)\\Capabilities"
+"LibrewolfPortable"="Software\\Clients\\StartMenuInternet\\LibrewolfPortable\\Capabilities"
 
-[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Firefox (Scoop)\shell\open\command]
-""="\"C:\\Users\\_USERNAME_\\scoop\\shims\\firefox.exe\""
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\LibrewolfPortable\shell]
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\LibrewolfPortable\shell\open]
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\LibrewolfPortable\shell\open\command]
+@="\"Y:\\Apps\\librewolf\\LibreWolf-Portable.exe\" \"%1\""
 
-[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Firefox (Scoop)\DefaultIcon]
-""="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\firefox.exe,0"
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\LibrewolfPortable\DefaultIcon]
+""="Y:\\Apps\\librewolf\\LibreWolf-Portable.exe,0"
 
-[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Firefox (Scoop)\Capabilities\FileAssociations]
-".html"="ScoopFirefoxHTM"
-".htm"="ScoopFirefoxHTM"
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Librewolf\Capabilities\FileAssociations]
+".html"="LibrewolfHTM"
+".htm"="LibrewolfHTM"
 
-[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Firefox (Scoop)\Capabilities\URLAssociations]
-"https"="ScoopFirefoxHTM"
-"http"="ScoopFirefoxHTM"
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Librewolf\Capabilities\URLAssociations]
+"https"="LibrewolfHTM"
+"http"="LibrewolfHTM"
 
-[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Firefox (Scoop)\Capabilities]
-"ApplicationName"="Firefox (Scoop)"
-"ApplicationIcon"="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\firefox.exe,0"
-"ApplicationDescription"="Firefox"
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\LibrewolfPortable\Capabilities]
+"ApplicationName"="LibrewolfPortable"
+"ApplicationIcon"="Y:\\Apps\\librewolf\\LibreWolf-Portable.exe,0"
+"ApplicationDescription"="LibrewolfPortable"
 
-[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\Firefox (Scoop)]
-""="Firefox (Scoop)"
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\LibrewolfPortable]
+""="LibrewolfPortable"
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\ScoopFirefoxHTM\shell\open\command]
-""="\"C:\\Users\\_USERNAME_\\scoop\\shims\\firefox.exe\" %1"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\LibrewolfHTM\shell]
+[HKEY_CURRENT_USER\SOFTWARE\Classes\LibrewolfHTM\shell\open]
+[HKEY_CURRENT_USER\SOFTWARE\Classes\LibrewolfHTM\shell\open\command]
+@="\"Y:\\Apps\\librewolf\\LibreWolf-Portable.exe\" \"%1\""
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\ScoopFirefoxHTM\Application]
+[HKEY_CURRENT_USER\SOFTWARE\Classes\LibrewolfHTM\Application]
 ; Name in Dialog
-"ApplicationName"="Firefox (Scoop)"
-"ApplicationDescription"="It's Firefox."
-"ApplicationIcon"="C:\\Users\\_USERNAME_\\scoop\\apps\\firefox\\current\\firefox.exe,0"
+"ApplicationName"="LibrewolfPortable"
+"ApplicationDescription"="Librewolf- An independent fork of Firefox, with the primary goals of privacy, security and user freedom."
+"ApplicationIcon"="Y:\\Apps\\librewolf\\LibreWolf-Portable.exe,0"
 
-[HKEY_CURRENT_USER\SOFTWARE\Classes\ScoopFirefoxHTM]
-""="Firefox (Scoop) HTML Document"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\LibrewolfHTM]
+""="Librewolf HTML Document"

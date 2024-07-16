@@ -1,10 +1,8 @@
-# scoop-default-browser
+# LibreWolf-default-browser
 
-This is a Windows Registry script to register Scoop's Firefox app as the user's default browser.
+This is a Windows Registry script to register LibreWolf-Portable app as the user's default browser.
 
-You will of course need to replace `_USERNAME_` with your actual user name.
-
-Once these settings are merged into the Registry, the user must manually select "Scoop Firefox" from the Default Apps settings page.
+Once these settings are merged into the Registry, the user must manually select "LibreWolf-Portable" from the Default Apps settings page.
 
 In Windows, the default apps settings can be opened on the command line using:
 
